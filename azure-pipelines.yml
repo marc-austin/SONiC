@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script: echo Hello, SONiC!
-  displayName: 'Let's see if we can build a SONiC image with a custom YAML file'
+  displayName: 'Let us see if we can build a SONiC image with a custom YAML file'
 
 - task: Maven@3
  inputs:
